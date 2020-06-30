@@ -1,0 +1,6 @@
+input, select, textarea, button {
+	width: 100%;
+	vertical-align: baseline;
+	font-family: $paragraphs-font;
+	@include transition(.3s);
+}

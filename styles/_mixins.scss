@@ -1,0 +1,40 @@
+
+// Transition @mixin
+@mixin transition( $value ) {
+	-webkit-transition: all $value;
+	-moz-transition: all $value;
+	-o-transition: all $value;
+	transition: all $value;
+}
+
+// Transform @mixin
+@mixin transform( $value ) {
+	-webkit-transform: $value;
+	-ms-transform: $value;
+	-o-transform: $value;
+	transform: $value;
+}
+
+// Radius @radius
+@mixin radius( $value ) {
+	-webkit-border-radius: $value;
+	-moz-border-radius: $value;
+	border-radius: $value;
+}
+
+// Opacity @opacity
+@mixin opacity( $value ) {
+	opacity: $value;
+	-khtml-opacity: $value;
+	-moz-opacity: $value;
+	-ms-filter: alpha(opacity=$value*100);
+	filter: alpha(opacity=$value*100);
+}
+
+// Placeholders @placeholder
+@mixin placeholder {
+	&::-webkit-input-placeholder {@content}
+	&:-moz-placeholder {@content}
+	&::-moz-placeholder {@content}
+	&:-ms-input-placeholder {@content}  
+}

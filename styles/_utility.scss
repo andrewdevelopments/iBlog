@@ -1,0 +1,155 @@
+body {
+	overflow-x: hidden;
+}
+.container:after, .row:after {
+    clear: both
+}
+.container:after, .container:before, .row:after, .row:before {
+    content: " ";
+    display: table
+}
+.container, .container-full {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+*, :after, :before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px
+    }
+}
+.container-full {
+    width: 100%;
+    -moz-transition: all 250ms;
+    -o-transition: all 250ms;
+    -webkit-transition: all 250ms;
+    transition: all 250ms
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px
+}
+[class*=c-] {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+.masonry-layout > [class*=c-] {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+
+@media (min-width: 768px) {
+    [class*=c-] {
+        float: left
+    }
+    .c-12 {
+        width: 100%
+    }
+    .c-11 {
+        width: 91.66667%
+    }
+    .c-10 {
+        width: 83.33333%
+    }
+    .c-9 {
+        width: 75%
+    }
+    .c-8 {
+        width: 66.66667%
+    }
+    .c-7 {
+        width: 58.33333%
+    }
+    .c-6 {
+        width: 50%
+    }
+    .c-5 {
+        width: 41.66667%
+    }
+    .c-4 {
+        width: 33.33333%
+    }
+    .c-3 {
+        width: 25%
+    }
+    .c-2 {
+        width: 16.66667%
+    }
+    .c-1 {
+        width: 8.33333%
+    }
+    .offset-12 {
+        margin-left: 100%
+    }
+    .offset-11 {
+        margin-left: 91.66667%
+    }
+    .offset-10 {
+        margin-left: 83.33333%
+    }
+    .offset-9 {
+        margin-left: 75%
+    }
+    .offset-8 {
+        margin-left: 66.66667%
+    }
+    .offset-7 {
+        margin-left: 58.33333%
+    }
+    .offset-6 {
+        margin-left: 50%
+    }
+    .offset-5 {
+        margin-left: 41.66667%
+    }
+    .offset-4 {
+        margin-left: 33.33333%
+    }
+    .offset-3 {
+        margin-left: 25%
+    }
+    .offset-2 {
+        margin-left: 16.66667%
+    }
+    .offset-1 {
+        margin-left: 8.33333%
+    }
+}
+*:hover, *:focus {
+	outline: 0;
+}
+.align {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+.aligncenter {
+	text-align: center;
+}
+.alignleft {
+	text-align: left;
+}
+.alignright {
+	text-align: right;
+}

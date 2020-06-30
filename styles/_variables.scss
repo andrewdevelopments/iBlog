@@ -1,0 +1,68 @@
+$gutter-width: 30px;
+$grid-columns: 12;
+
+// Screens
+$xtra-small-screen: 480px;
+$small-screen: 768px;
+$medium-screen: 992px;
+$large-screen: 1200px;
+
+// Column values
+$column12: 100%;
+$column11: 91.66666667%;
+$column10: 83.33333333%;
+$column9: 75%;
+$column8: 66.66666667%;
+$column7: 58.33333333%;
+$column6: 50%;
+$column5: 41.66666667%;
+$column4: 33.33333333%;
+$column3: 25%;
+$column2: 16.66666667%;
+$column1: 8.33333333%;
+
+// Small screen / tablet
+$container-tablet: ((720px + $gutter-width)) !default;
+
+// Medium screen / desktop
+$container-desktop: ((940px + $gutter-width)) !default;
+
+// Large screen / wide
+$container-large: ((1140px + $gutter-width)) !default;
+
+$h1: 36px;
+$h2: 30px;
+$h3: 24px;
+$h4: 20px;
+$h5: 18px;
+$h6: 14px;
+$text-size: 14px;
+$button-size: 14px;
+$line-height: 22px;
+$paragraphs-font: 'Questrial', 'sans-serif';
+$headings-font: 'Old Standard TT', 'sans-serif';
+$buttons-font: 'Montserrat', 'sans-serif';
+
+// Framework Colors
+$black: #000;
+$light: #fff;
+$grey: #777;
+$alert-success: #80d049;
+$alert-error: #f24b4b;
+$alert-warning: #f48d48;
+$alert-info: #0084dd;
+$code: #c7254e;
+
+// Theme Colors
+$theme-color: #ea7f6f;
+$paragraph-color: #aaa;
+
+// Social Colors
+$facebook: #3b5a9b;
+$twitter: #49c8f5;
+$google: #e74c3c;
+$pinterest: #d93919;
+$skype: #00aaf1;
+$rss: #fda505;
+$linkedin: #0173b2;
+$youtube: #e62117;

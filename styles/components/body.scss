@@ -1,0 +1,11 @@
+.main-content {
+	margin-top: 50px;
+	&.short {
+		position: relative;
+		margin-left: 300px;
+		width: 1470px;
+	}
+	.page-head {
+		padding: 80px 0;
+	}
+}

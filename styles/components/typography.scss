@@ -1,0 +1,60 @@
+body {
+	font-family: $paragraphs-font;
+	font-size: $text-size;
+	line-height: $line-height;
+	color: $paragraph-color;
+}
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-family: $headings-font;
+	font-weight: 400;
+	font-style: italic;
+	margin-bottom: 15px;
+	line-height: 100%;
+}
+h1, h1 a {
+	font-size: $h1;
+}
+h2, h2 a {
+	font-size: $h2;
+}
+h3, h3 a {
+	font-size: $h3;
+}
+h4, h4 a {
+	font-size: $h4;
+}
+h5, h5 a {
+	font-size: $h5;
+}
+h6, h6 a {
+	font-size: $h6;
+}
+p, span {
+	font-size: $text-size;
+	line-height: $line-height;
+	color: $paragraph-color;
+	font-family: $paragraphs-font;
+}
+a {
+	font-family: $buttons-font;
+	font-size: $text-size;
+	line-height: $line-height;
+	color: #000;
+	text-decoration: none;
+	@include transition(.3s);
+	&.link {
+		text-transform: uppercase;
+		font-size: 13px;
+		font-weight: 500;
+	}
+	&:hover {
+		color: $theme-color;
+	}
+}
+ul, ol {
+	&.custom {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+}
